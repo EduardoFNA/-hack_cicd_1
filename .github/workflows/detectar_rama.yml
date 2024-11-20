@@ -3,13 +3,13 @@
  on:
    push:
      branches:
-       - develop
+       - developer
        - main
 
    pull_request:
      branches:
        - main
-       - develop
+       - developer
 
        
  jobs:
