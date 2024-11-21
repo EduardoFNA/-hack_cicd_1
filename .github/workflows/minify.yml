@@ -27,9 +27,6 @@ jobs:
       - name: Minify JavaScript
         run: minify main.js > main.min.js
 
-      - name: minified files 
-        run: echo "Minified javaScript files:" ls *.js | grep -v ".min.js"
-
       - name: Commit minified file
         uses: stefanzweifel/git-auto-commit-action@v5
         
